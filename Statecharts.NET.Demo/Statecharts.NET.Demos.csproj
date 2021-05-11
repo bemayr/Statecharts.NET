@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+  
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <ProjectReference Include="..\Statecharts.NET.Core\Statecharts.NET.Core.csproj" />
     <ProjectReference Include="..\Statecharts.NET.Language\Statecharts.NET.Language.csproj" />

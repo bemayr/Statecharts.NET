@@ -21,14 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statecharts.NET.XState", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statecharts.NET.XState.Tests", "Statecharts.NET.XState.Tests\Statecharts.NET.XState.Tests.csproj", "{4991BF4E-64D7-4D42-A678-F25C58E77FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Demo.UWP", "Statecharts.NET.Demo.UWP\Statecharts.NET.Demo.UWP.csproj", "{044EDBCF-1DAA-4205-916C-70D1633FAD3D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Analyzers", "Statecharts.NET.Analyzers\Statecharts.NET.Analyzers\Statecharts.NET.Analyzers.csproj", "{CABC0128-0FC9-4251-8B60-9EC1667AFF55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Analyzers.Test", "Statecharts.NET.Analyzers\Statecharts.NET.Analyzers.Test\Statecharts.NET.Analyzers.Test.csproj", "{C9C7F12B-0937-4DE4-9D3E-8640308BA63C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Analyzers.Vsix", "Statecharts.NET.Analyzers\Statecharts.NET.Analyzers.Vsix\Statecharts.NET.Analyzers.Vsix.csproj", "{CABA16F1-7773-4A69-8DB9-6D7072AE08E5}"
-EndProject
+# [TODO] Enable those after upgrading the Analyzer Project Version
+# Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Analyzers", "Statecharts.NET.Analyzers\Statecharts.NET.Analyzers\Statecharts.NET.Analyzers.csproj", "{CABC0128-0FC9-4251-8B60-9EC1667AFF55}"
+# EndProject
+# Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Analyzers.Test", "Statecharts.NET.Analyzers\Statecharts.NET.Analyzers.Test\Statecharts.NET.Analyzers.Test.csproj", "{C9C7F12B-0937-4DE4-9D3E-8640308BA63C}"
+# EndProject
+# Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statecharts.NET.Analyzers.Vsix", "Statecharts.NET.Analyzers\Statecharts.NET.Analyzers.Vsix\Statecharts.NET.Analyzers.Vsix.csproj", "{CABA16F1-7773-4A69-8DB9-6D7072AE08E5}"
+# EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,34 +162,6 @@ Global
 		{4991BF4E-64D7-4D42-A678-F25C58E77FC2}.Release|x64.Build.0 = Release|Any CPU
 		{4991BF4E-64D7-4D42-A678-F25C58E77FC2}.Release|x86.ActiveCfg = Release|Any CPU
 		{4991BF4E-64D7-4D42-A678-F25C58E77FC2}.Release|x86.Build.0 = Release|Any CPU
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|Any CPU.Build.0 = Debug|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|Any CPU.Deploy.0 = Debug|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|ARM.ActiveCfg = Debug|ARM
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|ARM.Build.0 = Debug|ARM
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|ARM.Deploy.0 = Debug|ARM
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|ARM64.Build.0 = Debug|ARM64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|x64.ActiveCfg = Debug|x64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|x64.Build.0 = Debug|x64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|x64.Deploy.0 = Debug|x64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|x86.ActiveCfg = Debug|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|x86.Build.0 = Debug|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Debug|x86.Deploy.0 = Debug|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|Any CPU.ActiveCfg = Release|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|ARM.ActiveCfg = Release|ARM
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|ARM.Build.0 = Release|ARM
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|ARM.Deploy.0 = Release|ARM
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|ARM64.ActiveCfg = Release|ARM64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|ARM64.Build.0 = Release|ARM64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|ARM64.Deploy.0 = Release|ARM64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|x64.ActiveCfg = Release|x64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|x64.Build.0 = Release|x64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|x64.Deploy.0 = Release|x64
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|x86.ActiveCfg = Release|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|x86.Build.0 = Release|x86
-		{044EDBCF-1DAA-4205-916C-70D1633FAD3D}.Release|x86.Deploy.0 = Release|x86
 		{CABC0128-0FC9-4251-8B60-9EC1667AFF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CABC0128-0FC9-4251-8B60-9EC1667AFF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CABC0128-0FC9-4251-8B60-9EC1667AFF55}.Debug|ARM.ActiveCfg = Debug|Any CPU
